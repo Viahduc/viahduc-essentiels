@@ -1,11 +1,14 @@
 #!/bin/bash
 
 #pacman
-sudo pacman -S vim steam discord libreoffice-still alacritty firefox ark neofetch sl gimp pcmanfm clementine thunderbird lutris keepassxc vlc htop
+sudo pacman -S vim steam discord libreoffice-still alacritty firefox ark neofetch sl gimp pcmanfm clementine thunderbird lutris keepassxc vlc htop paru
+
+#aur
+paru pacman -S hollywood
 
 #git
 
-#pfetch
+#pfetch 
 git clone https://github.com/dylanaraps/pfetch
 cd pfetch
 sudo make install
@@ -13,5 +16,6 @@ cd ../
 rm -rf pfetch
 
 #list
-echo Installed program with pacman: vim, steam, discord, libreoffice-still, alacritty, firefox, ark, sl, gimp, pcmanfm, clementine, thunderbird, lutris, keepassxc, vlc, htop and neofetch
+echo Installed program with pacman: vim, steam, discord, libreoffice-still, alacritty, firefox, ark, sl, gimp, pcmanfm, clementine, thunderbird, lutris, keepassxc, vlc, htop, paru and neofetch
+echo Installed program from the aur: hollywood
 echo Installed program with git: pfetch
