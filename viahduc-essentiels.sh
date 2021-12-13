@@ -13,7 +13,7 @@ git clone https://github.com/dylanaraps/pfetch
 cd pfetch
 sudo make install
 cd ../
-rm -rf pfetch
+sudo rm -rf pfetch
 
 #list
 echo Installed program with pacman: vim, steam, discord, libreoffice-still, alacritty, firefox, ark, sl, gimp, pcmanfm, clementine, thunderbird, lutris, keepassxc, vlc, htop, paru and neofetch
