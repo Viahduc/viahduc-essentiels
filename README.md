@@ -8,4 +8,4 @@ git clone https://github.com/Viahduc/viahduc-essentiels
 
 unzip the file
 
-execute thee script
+execute the script
