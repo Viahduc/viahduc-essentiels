@@ -5,6 +5,7 @@ How to Install
 
 git clone https://github.com/Viahduc/viahduc-essentiels
 
-cd viahduc-essentiels/
 
-sh viahduc-essentiels.sh
+unzip the file
+
+execute thee script
